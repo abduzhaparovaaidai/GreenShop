@@ -1,1 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Hanging Letters";
+  src: url("./assets/fonts/HangingLetters.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
