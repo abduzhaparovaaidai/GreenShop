@@ -20,9 +20,9 @@ const sizes = [
 
 function Sidebar() {
   return (
-    <aside className="w-[310px] bg-[#FBFBFB] shrink-0">
+    <aside className="w-full md:w-[310px] bg-[#FBFBFB] shrink-0">
       <div className="pt-[14px] pl-[18px] pr-[24px] pb-[19px]">
-        <div className="w-[268px]">
+        <div className="w-full max-w-[268px]">
           <h3 className="text-[#3D3D3D] font-bold text-[18px] leading-[16px]">Categories</h3>
           <ul className="mt-[7px]">
             {categories.map(({ name, count }, index) => (
@@ -51,7 +51,7 @@ function Sidebar() {
           </ul>
         </div>
 
-        <div className="w-[226px] mt-[36px]">
+        <div className="w-full max-w-[226px] mt-[36px]">
           <h3 className="text-[#3D3D3D] font-bold text-[18px] leading-[16px]">Price Range</h3>
 
           <div className="relative h-[4px] w-[209px] mt-[29px] ml-[17px]">
@@ -71,7 +71,7 @@ function Sidebar() {
           </button>
         </div>
 
-        <div className="w-[268px] mt-[46px]">
+        <div className="w-full max-w-[268px] mt-[46px]">
           <h3 className="text-[#3D3D3D] font-bold text-[18px] leading-[16px]">Size</h3>
           <ul className="mt-[7px]">
             {sizes.map(({ name, count }) => (
