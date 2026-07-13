@@ -1,5 +1,5 @@
-import { CiHome, CiHeart, CiShoppingCart, CiUser } from 'react-icons/ci'
-import { PiScanLight } from 'react-icons/pi'
+import { CiHeart, CiShoppingCart, CiUser } from 'react-icons/ci'
+import { PiScanLight, PiHouseBold } from 'react-icons/pi'
 
 function MobileBottomNav() {
   return (
@@ -15,7 +15,7 @@ function MobileBottomNav() {
 
       <div className="absolute bottom-0 left-0 right-0 h-[94.95px] flex items-center justify-between px-10">
         <button aria-label="Home" className="flex items-center justify-center w-10 h-10 rounded-full bg-[#46A358] text-white">
-          <CiHome size={20} />
+          <PiHouseBold size={20} />
         </button>
 
         <button aria-label="Wishlist" className="text-[#C4C4C4] hover:text-[#46A358] transition-colors">

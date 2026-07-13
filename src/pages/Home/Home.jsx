@@ -7,7 +7,7 @@ function Home() {
   return (
     <main>
       <Banner />
-      <div className="flex flex-col md:flex-row gap-8 md:gap-[50px] mt-8">
+      <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-[50px] mt-8">
         <Sidebar />
         <div className="flex-1">
           <Products />
